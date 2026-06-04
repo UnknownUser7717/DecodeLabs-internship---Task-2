@@ -1,17 +1,6 @@
 # DecodeLabs-internship---Task-2
 
-Goal: Analyze the cleaned dataset to uncover patterns, trends, and distributions.
-What was done:
-
-Computed descriptive statistics (mean, median, min, max, std) across all numerical columns
-Identified a right-skewed distribution in TotalPrice — most orders are low-value with a few high-value outliers
-Detected a small number of outliers in TotalPrice above $3,300 representing bulk purchases
-Flagged a suspicious low-price Phone order at $11.39 — retained but noted
-Analyzed order distribution across products — Printers lead but all categories are balanced
-Found that Cancelled orders are the most frequent status while Delivered are the least — a potential business concern
-Identified Instagram as the top customer acquisition channel
-Revealed no consistent sales trend over time, with notable spikes in April 2023 and June 2024
-Discovered June as the peak month for order volume, likely driven by summer spending
-
-Visualizations: Histogram, Boxplots, Countplots, Line plot
+# Project 2 — Exploratory Data Analysis
+TotalPrice is right-skewed — most orders are cheap, a few bulk purchases pull the average up. One Phone order at $11.39 looks off but it's one row so I kept it noted. Cancelled orders are the most common status, delivered the least — that would be a problem for a real business. Instagram sends the most customers but Facebook customers spend more per order. Sales over time are volatile with no real trend, two spikes in April 2023 and June 2024. June is the busiest month, probably summer.
+Charts: histogram, boxplots, countplots, line plot
 Tools: Python, pandas, matplotlib, seaborn
